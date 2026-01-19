@@ -23,8 +23,7 @@ func main() {
 		log.Printf("defaulting to port %s", port)
 	}
 
-	err := r.Run(port)
+	err := r.Run(":" + port)
 	if err != nil {
-		return
+		log.Fatalf("Failed to start server: %v", err)
 	}
-}
