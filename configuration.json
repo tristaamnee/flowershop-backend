@@ -1,0 +1,11 @@
+{
+  "db": {
+    "user": "myUser",
+    "password": "NxNCQ3JdqTnN92Qv",
+    "address": "localhost:5433",
+    "database": "hvalfangst_db"
+  },
+  "jwt": {
+    "encryption_key": "THIS_SHOULD_COME_FROM_KEY_VAULT"
+  }
+}
